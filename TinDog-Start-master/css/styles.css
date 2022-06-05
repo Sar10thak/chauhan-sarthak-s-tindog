@@ -1,0 +1,192 @@
+body{
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+/* title-section */
+#title{
+  background-color: #ff4c68;
+}
+
+#title .container-fluid{
+  padding: 3% 15%;
+}
+
+.row{
+  padding-top: 60px;
+}
+
+.big-heading{
+  font-size: 3rem;
+  color:white;
+  line-height: 4.5rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+.Download-button{
+  margin: 5px 5px;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.image-apple{
+  width:60%;
+  transform: rotate(25deg);
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+/* features-section */
+
+.fa-solid{
+  font-size: 65px;
+  padding-bottom: 20px;
+  color: #ef8172;
+}
+.fa-solid:hover{
+  color:#ff4c68;
+}
+#features{
+  padding:7% 15%;
+  text-align: center;
+  position:relative;
+  background-color: #fff;
+}
+.faeture-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.outro{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+
+/* testimonials */
+
+#testimonials{
+  padding:5% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+.test{
+
+  font-weight: 900;
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 2.6rem;
+  color:#fff;
+  padding-bottom: 30px;
+}
+
+.img-test{
+  width:10%;
+  border-radius: 100%;
+  text-align: center;
+  margin:20px;
+}
+
+/* press-section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 16%;
+  margin: 20px 20px 20px;
+}
+.img-press{
+  width:12%;
+  margin:20px 20px 50px;
+}
+
+/* pricing */
+.test-price{
+
+  font-weight: 900;
+  font-size: 2.2rem;
+  color:black;
+
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-card{
+  padding: 3% 2%;
+}
+
+/* Call-to-action section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding:7% 15%;
+}
+.test-cta{
+  font-weight: 900;
+  font-size: 2.5rem;
+  color:#fff;
+  padding-bottom: 20px;
+}
+
+#footer{
+  text-align:center;
+  padding: 7%;
+}
+.foot{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* Media-Breakpoint */
+
+@media  (max-width:900px) {
+.col-lg-6{
+    text-align: center;
+  }
+  .image-apple{
+    transform: rotate(0);
+  }
+.big-heading{
+
+    font-size: 3rem;
+    text-align: center;
+    color:#fff;
+    line-height: 3.5rem;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.img-test{
+  width:50%;
+  border-radius: 100%;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+.test{
+  font-weight: 900;
+  width:90%;
+  font-size: 1.6rem;
+  color:#fff;
+  
+}
+
+}
